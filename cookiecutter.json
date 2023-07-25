@@ -1,0 +1,21 @@
+{
+
+  "author": "Thonifho Muhali",
+  "email": "thmuhali@gmail.com",
+
+  "project_name": "Azure DEV CLI",
+  "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "pkg_name": "{{ cookiecutter.project_slug|replace('-', '') }}",
+
+
+  "project_kind": "Command Line App",
+  "project_language": "Bash",
+  
+  "repo_tagline": "{{ cookiecutter.project_name }} | {{ cookiecutter.project_kind }} - {{ cookiecutter.project_language}}",
+  "short_description": "A command line framework built using nothing but Bash and compatible with anything.",
+
+  "bash_cli_version":"v1",
+  "version":"1.0.0",
+
+  "github_username":"tony-rsa"
+}

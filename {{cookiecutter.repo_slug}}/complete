@@ -18,8 +18,8 @@ function _bash_cli() {
     local root_dir;
     root_dir=$(dirname "$(bcli_realpath "$(which "${COMP_WORDS[0]}")")")
     
-    # shellcheck source=./bash-cli.inc.sh
-    . "$root_dir/bash-cli.inc.sh"
+    # shellcheck source=./bash-cli.import.sh
+    . "$root_dir/bash-cli.import.sh"
 
     bcli_bash_completions
 }

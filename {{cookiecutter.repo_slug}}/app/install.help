@@ -5,4 +5,4 @@ FOLDER  - (Optional) The directory you would like the command line installed to
           Example: /usr/sbin
 
 Installs your command line app under the given name by creating a symlink
-to the Bash CLI proxy.
+to the {{ cookiecutter.project_name }} proxy.

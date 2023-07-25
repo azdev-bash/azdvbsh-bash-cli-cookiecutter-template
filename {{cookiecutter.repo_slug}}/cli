@@ -14,7 +14,8 @@ realpath() {
 
 ROOT_DIR=$(dirname "$(realpath "$0")")
 
-# shellcheck source=./bash-cli.inc.sh
-. "$ROOT_DIR/bash-cli.inc.sh"
+# shellcheck source=./bash-cli.import.sh
+. "$ROOT_DIR/bash-cli.import.sh"
 
-bcli_help "$@"
+# Run the {{ cookiecutter.project_name }} entrypoint
+bcli_entrypoint "$@"
