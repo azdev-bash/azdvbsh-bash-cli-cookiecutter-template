@@ -7,7 +7,7 @@
   "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
   "pkg_name": "{{ cookiecutter.project_slug|replace('-', '') }}",
 
-
+  "repo_slug": "{{ cookiecutter.project_slug|lower|replace(' ', '-') }}",
   "project_kind": "Command Line App",
   "project_language": "Bash",
   
@@ -16,6 +16,6 @@
 
   "bash_cli_version":"v1",
   "version":"1.0.0",
-
+  
   "github_username":"tony-rsa"
 }
