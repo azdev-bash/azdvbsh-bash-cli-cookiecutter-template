@@ -7,7 +7,6 @@
   "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
   "pkg_name": "{{ cookiecutter.project_slug|replace('-', '') }}",
   "cli_name": "github_username-cli",
-  "repo_slug": "cli",
   "project_kind": "Command Line App",
   "project_language": "Bash",
   
